@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.orders.addorder.AddOrderController">
+    <Label layoutX="400.0" layoutY="14.0" text="Add order">
+        <font>
+            <Font size="22.0" />
+        </font>
+    </Label>
+    <Label layoutX="644.0" layoutY="156.0" text="Order Items">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <TableView fx:id="tableViewOrders" layoutX="17.0" layoutY="196.0" prefHeight="249.0" prefWidth="423.0">
+        <columns>
+            <TableColumn fx:id="dateOrder" prefWidth="188.59999656677246" text="date" />
+            <TableColumn fx:id="idTable" prefWidth="234.60003662109375" text="tableID" />
+        </columns>
+    </TableView>
+    <TableView fx:id="tableViewOrderItems" layoutX="450.0" layoutY="196.0" prefHeight="250.0" prefWidth="438.0">
+        <columns>
+            <TableColumn fx:id="nameItem" prefWidth="176.0" text="item name" />
+            <TableColumn fx:id="priceItem" prefWidth="88.800048828125" text="price" />
+            <TableColumn fx:id="quantityItem" prefWidth="75.5999755859375" text="quantity" />
+            <TableColumn fx:id="totalItem" prefWidth="96.00003662109373" text="total" />
+        </columns>
+    </TableView>
+    <Button layoutX="404.0" layoutY="460.0" mnemonicParsing="false" onAction="#addOrder" text="Add Order" />
+    <ComboBox fx:id="tablesCombobox" layoutX="73.0" layoutY="100.0" promptText="Table number" />
+    <ComboBox fx:id="itemsComboBox" layoutX="473.0" layoutY="86.0" prefHeight="26.0" prefWidth="150.0" promptText="Menu items" />
+    <ComboBox fx:id="quantityComboBox" layoutX="473.0" layoutY="131.0" promptText="Quantity" />
+    <Button layoutX="770.0" layoutY="105.0" mnemonicParsing="false" onAction="#addMenuItem" text="Add" />
+    <Button layoutX="692.0" layoutY="105.0" mnemonicParsing="false" onAction="#removeMenuItem" text="Remove" />
+   <Label layoutX="184.0" layoutY="156.0" text="Order List">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+</AnchorPane>

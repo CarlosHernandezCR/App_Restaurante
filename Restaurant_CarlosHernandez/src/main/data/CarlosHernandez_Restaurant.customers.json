@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "67c4b8a173480d60d8451598"
+  },
+  "first_name": "John",
+  "last_name": "Smith",
+  "email": "john.smith@hotmail.com",
+  "phone": "57411185",
+  "dob": {
+    "$date": "2001-09-09T00:00:00.000Z"
+  },
+  "orders": [
+    {
+      "order_date": "2024-09-10T22:30:30",
+      "table_id": 2,
+      "order_items": [
+        {
+          "menu_item_id": 1,
+          "quantity": 2
+        },
+        {
+          "menu_item_id": 2,
+          "quantity": 3
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c4b8a173480d60d845159a"
+  },
+  "first_name": "Ann",
+  "last_name": "Johnson",
+  "email": "ann.johnson@gmail.com",
+  "phone": "485234911",
+  "dob": {
+    "$date": "2000-04-17T00:00:00.000Z"
+  },
+  "orders": [
+    {
+      "order_date": "2024-09-11T14:15:10",
+      "table_id": 3,
+      "order_items": [
+        {
+          "menu_item_id": 3,
+          "quantity": 4
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c4b8a173480d60d845159c"
+  },
+  "first_name": "Christopher",
+  "last_name": "Mann",
+  "email": "chris.mann@webmail.com",
+  "phone": "465834578",
+  "dob": {
+    "$date": "1997-10-11T00:00:00.000Z"
+  },
+  "orders": [
+    {
+      "order_date": "2024-09-11T14:45:20",
+      "table_id": 4,
+      "order_items": [
+        {
+          "menu_item_id": 4,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "order_date": "2024-09-11T21:00:30",
+      "table_id": 5,
+      "order_items": [
+        {
+          "menu_item_id": 5,
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c4b8a173480d60d845159e"
+  },
+  "first_name": "Nathalie",
+  "last_name": "Donner",
+  "email": "nat.donner@gmail.com",
+  "phone": null,
+  "dob": {
+    "$date": "1986-10-23T00:00:00.000Z"
+  },
+  "orders": []
+},
+{
+  "_id": {
+    "$oid": "67c4b8a173480d60d84515a0"
+  },
+  "first_name": "Solea",
+  "last_name": "Nickson",
+  "email": "solea.nickson@hotmail.com",
+  "phone": null,
+  "dob": {
+    "$date": "2004-10-12T00:00:00.000Z"
+  },
+  "orders": [
+    {
+      "order_date": "2024-09-13T14:30:40",
+      "table_id": 2,
+      "order_items": []
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c4b8a173480d60d84515a2"
+  },
+  "first_name": "root",
+  "last_name": "root",
+  "email": "root@hotmail.es",
+  "phone": "123412313",
+  "dob": {
+    "$date": "1986-10-10T00:00:00.000Z"
+  },
+  "orders": []
+}]

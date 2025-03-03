@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.customer.deletecustomer.DeleteCustomerController">
+    <TableView fx:id="customersTable" layoutX="14.0" layoutY="58.0" prefHeight="331.0" prefWidth="503.0">
+        <columns>
+            <TableColumn fx:id="idCustomerColumn" prefWidth="44.19998264312744" text="Id" />
+            <TableColumn fx:id="firstnameCustomerColumn" prefWidth="93.80001449584961" text="First name" />
+            <TableColumn fx:id="lastnameCustomerColumn" prefWidth="87.4000244140625" text="Last name" />
+            <TableColumn fx:id="emailCustomerColumn" prefWidth="84.00001525878906" text="Email" />
+            <TableColumn fx:id="phoneCustomerColumn" prefWidth="79.0" text="Phone" />
+            <TableColumn fx:id="dobCustomerColumn" prefWidth="110.5999755859375" text="Date of birth" />
+        </columns>
+    </TableView>
+    <TableView fx:id="ordersTable" layoutX="565.0" layoutY="103.0" prefHeight="251.0" prefWidth="310.0">
+        <columns>
+            <TableColumn fx:id="dateOrderColumn" prefWidth="149.20001220703125" text="Date" />
+            <TableColumn fx:id="tableOrderColumn" prefWidth="159.99997558593748" text="Table" />
+        </columns>
+    </TableView>
+    <Button layoutX="668.0" layoutY="363.0" mnemonicParsing="false" onAction="#deleteCustomer" text="Delete Customer" />
+   <Label layoutX="565.0" layoutY="40.0" prefHeight="26.0" prefWidth="309.0" text="ORDERS OF THE CUSTOMER">
+      <font>
+         <Font size="24.0" />
+      </font></Label>
+   <Label layoutX="162.0" layoutY="14.0" text="DELETE CUSTOMER">
+      <font>
+         <Font size="24.0" />
+      </font></Label>
+
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.customer.updatecustomer.UpdateCustomerController">
+    <TableView fx:id="customersTable" layoutX="20.0" layoutY="58.0" prefHeight="331.0" prefWidth="543.0">
+        <columns>
+            <TableColumn fx:id="idCustomerColumn" prefWidth="87.0" text="Id" />
+            <TableColumn fx:id="firstnameCustomerColumn" prefWidth="81.0" text="First name" />
+            <TableColumn fx:id="lastnameCustomerColumn" prefWidth="87.0" text="Last name" />
+            <TableColumn fx:id="emailCustomerColumn" prefWidth="95.0" text="Email" />
+            <TableColumn fx:id="phoneCustomerColumn" prefWidth="95.0" text="Phone" />
+            <TableColumn fx:id="dobCustomerColumn" prefWidth="95.0" text="Date of birth" />
+        </columns>
+    </TableView>
+    <TextField fx:id="fNameField" layoutX="702.0" layoutY="135.0" promptText="First name" />
+    <TextField fx:id="lNameField" layoutX="702.0" layoutY="173.0" promptText="Last name" />
+    <TextField fx:id="emailField" layoutX="702.0" layoutY="211.0" promptText="Email" />
+    <TextField fx:id="phoneField" layoutX="702.0" layoutY="250.0" promptText="Phone" />
+    <DatePicker fx:id="dobField" layoutX="702.0" layoutY="288.0" prefHeight="26.0" prefWidth="150.0" promptText="Date of birth" />
+    <Button layoutX="671.0" layoutY="348.0" mnemonicParsing="false" onAction="#updateCustomer" text="Update Customer" />
+    <Label layoutX="626.0" layoutY="139.0" text="First Name" />
+    <Label layoutX="627.0" layoutY="177.0" text="Last Name" />
+    <Label layoutX="640.0" layoutY="215.0" text="Email" />
+    <Label layoutX="637.0" layoutY="254.0" text="Phone" />
+    <Label layoutX="619.0" layoutY="292.0" text="Date Of Birth" />
+   <Label layoutX="605.0" layoutY="58.0" text="UPDATE CUSTOMER">
+      <font>
+         <Font size="32.0" />
+      </font>
+   </Label>
+</AnchorPane>

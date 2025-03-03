@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.customer.showcustomers.ShowCustomerController">
+    <TableView fx:id="customersTable" layoutX="37.0" layoutY="65.0" prefHeight="366.0" prefWidth="773.0">
+        <columns>
+            <TableColumn fx:id="idCustomerColumn" prefWidth="87.0" text="Id" />
+            <TableColumn fx:id="firstnameCustomerColumn" prefWidth="125.00001525878906" text="First name" />
+            <TableColumn fx:id="lastnameCustomerColumn" maxWidth="1.7976931348623157E308" prefWidth="136.59996032714844" text="Last name" />
+            <TableColumn fx:id="emailCustomerColumn" prefWidth="128.79998779296875" text="Email" />
+            <TableColumn fx:id="phoneCustomerColumn" prefWidth="139.39996337890625" text="Phone" />
+            <TableColumn fx:id="dobCustomerColumn" prefWidth="162.800048828125" text="Date of birth" />
+        </columns>
+    </TableView>
+    <Label layoutX="394.0" layoutY="14.0" text="Customers">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Label>
+   <Button layoutX="369.0" layoutY="447.0" mnemonicParsing="false" text="SAVE IN MONGO" onAction="#saveInMongo" />
+</AnchorPane>

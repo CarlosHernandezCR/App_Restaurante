@@ -1,0 +1,564 @@
+[
+    {
+      "tipo": "comercial",
+      "modelo": "Airbus A320",
+      "fabricante": "Airbus",
+      "anio_fabricacion": 2014,
+      "capacidad_pasajeros": 180,
+      "alcance_km": 5700,
+      "velocidad_maxima_kmh": 871,
+      "costo_unitario_usd": 101000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 737",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 2010,
+      "capacidad_pasajeros": 215,
+      "alcance_km": 6150,
+      "velocidad_maxima_kmh": 839,
+      "costo_unitario_usd": 85800000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Su-35",
+      "fabricante": "Sukhoi",
+      "anio_fabricacion": 2007,
+      "armamento": [
+        "Misiles R-77",
+        "Misiles R-73",
+        "Cañón GSh-301"
+      ],
+      "velocidad_maxima_mach": 2.25,
+      "techo_servicio_m": 18000,
+      "costo_unitario_usd": 65000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 787 Dreamliner",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 2011,
+      "capacidad_pasajeros": 296,
+      "alcance_km": 14140,
+      "velocidad_maxima_kmh": 954,
+      "costo_unitario_usd": 248300000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Airbus A380",
+      "fabricante": "Airbus",
+      "anio_fabricacion": 2005,
+      "capacidad_pasajeros": 555,
+      "alcance_km": 15200,
+      "velocidad_maxima_kmh": 945,
+      "costo_unitario_usd": 445600000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "F-35 Lightning II",
+      "fabricante": "Lockheed Martin",
+      "anio_fabricacion": 2006,
+      "armamento": [
+        "Misiles AIM-120 AMRAAM",
+        "Misiles AIM-9 Sidewinder",
+        "Misiles AGM-158 JASSM"
+      ],
+      "velocidad_maxima_mach": 1.6,
+      "techo_servicio_m": 18288,
+      "costo_unitario_usd": 94600000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 747",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 1968,
+      "capacidad_pasajeros": 467,
+      "alcance_km": 14200,
+      "velocidad_maxima_kmh": 988,
+      "costo_unitario_usd": 352000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Airbus A350",
+      "fabricante": "Airbus",
+      "anio_fabricacion": 2013,
+      "capacidad_pasajeros": 366,
+      "alcance_km": 15700,
+      "velocidad_maxima_kmh": 945,
+      "costo_unitario_usd": 317400000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Dassault Rafale",
+      "fabricante": "Dassault Aviation",
+      "anio_fabricacion": 2001,
+      "armamento": [
+        "Misiles Meteor",
+        "Misiles Mica",
+        "Cañón GIAT 30"
+      ],
+      "velocidad_maxima_mach": 1.8,
+      "techo_servicio_m": 15240,
+      "costo_unitario_usd": 92000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "F-15 Eagle",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 1972,
+      "armamento": [
+        "Misiles AIM-120 AMRAAM",
+        "Misiles AIM-9 Sidewinder",
+        "Cañón M61 Vulcan"
+      ],
+      "velocidad_maxima_mach": 2.5,
+      "techo_servicio_m": 18300,
+      "costo_unitario_usd": 30000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 777",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 1994,
+      "capacidad_pasajeros": 396,
+      "alcance_km": 14600,
+      "velocidad_maxima_kmh": 950,
+      "costo_unitario_usd": 261300000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Embraer E195-E2",
+      "fabricante": "Embraer",
+      "anio_fabricacion": 2019,
+      "capacidad_pasajeros": 146,
+      "alcance_km": 4800,
+      "velocidad_maxima_kmh": 870,
+      "costo_unitario_usd": 60700000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Su-57",
+      "fabricante": "Sukhoi",
+      "anio_fabricacion": 2010,
+      "armamento": [
+        "Misiles R-77",
+        "Misiles R-73",
+        "Cañón GSh-30"
+      ],
+      "velocidad_maxima_mach": 2.25,
+      "techo_servicio_m": 18000,
+      "costo_unitario_usd": 85000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Dassault Mirage 2000",
+      "fabricante": "Dassault Aviation",
+      "anio_fabricacion": 1978,
+      "armamento": [
+        "Misiles Matra Super 530",
+        "Misiles Magic",
+        "Cañón DEFA 554"
+      ],
+      "velocidad_maxima_mach": 2.2,
+      "techo_servicio_m": 18000,
+      "costo_unitario_usd": 30000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "F-18 Hornet",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 1978,
+      "armamento": [
+        "Misiles AIM-120 AMRAAM",
+        "Misiles AIM-9 Sidewinder",
+        "Cañón M61 Vulcan"
+      ],
+      "velocidad_maxima_mach": 1.8,
+      "techo_servicio_m": 15240,
+      "costo_unitario_usd": 70000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "JAS 39 Gripen",
+      "fabricante": "Saab",
+      "anio_fabricacion": 1996,
+      "armamento": [
+        "Misiles Meteor",
+        "Misiles AIM-9 Sidewinder",
+        "Cañón BK 27"
+      ],
+      "velocidad_maxima_mach": 2,
+      "techo_servicio_m": 15240,
+      "costo_unitario_usd": 60000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 757",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 1981,
+      "capacidad_pasajeros": 200,
+      "alcance_km": 7222,
+      "velocidad_maxima_kmh": 976,
+      "costo_unitario_usd": 130000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Airbus A220",
+      "fabricante": "Airbus",
+      "anio_fabricacion": 2013,
+      "capacidad_pasajeros": 135,
+      "alcance_km": 5900,
+      "velocidad_maxima_kmh": 871,
+      "costo_unitario_usd": 81000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "F-35 Lightning II",
+      "fabricante": "Lockheed Martin",
+      "anio_fabricacion": 2006,
+      "armamento": [
+        "Misiles AIM-120 AMRAAM",
+        "Misiles AIM-9 Sidewinder",
+        "Misiles AGM-158 JASSM"
+      ],
+      "velocidad_maxima_mach": 1.6,
+      "techo_servicio_m": 18288,
+      "costo_unitario_usd": 94600000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Eurofighter Typhoon",
+      "fabricante": "Eurofighter GmbH",
+      "anio_fabricacion": 2003,
+      "armamento": [
+        "Misiles Meteor",
+        "Misiles ASRAAM",
+        "Cañón BK-27"
+      ],
+      "velocidad_maxima_mach": 2,
+      "techo_servicio_m": 19812,
+      "costo_unitario_usd": 120000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 767",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 1982,
+      "capacidad_pasajeros": 290,
+      "alcance_km": 9700,
+      "velocidad_maxima_kmh": 907,
+      "costo_unitario_usd": 200000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Airbus A340",
+      "fabricante": "Airbus",
+      "anio_fabricacion": 1991,
+      "capacidad_pasajeros": 375,
+      "alcance_km": 14200,
+      "velocidad_maxima_kmh": 913,
+      "costo_unitario_usd": 275000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Sukhoi Su-35",
+      "fabricante": "Sukhoi",
+      "anio_fabricacion": 2007,
+      "armamento": [
+        "Misiles R-77",
+        "Misiles R-73",
+        "Cañón GSh-301"
+      ],
+      "velocidad_maxima_mach": 2.25,
+      "techo_servicio_m": 18000,
+      "costo_unitario_usd": 65000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Dassault Rafale",
+      "fabricante": "Dassault Aviation",
+      "anio_fabricacion": 2001,
+      "armamento": [
+        "Misiles Meteor",
+        "Misiles Mica",
+        "Cañón GIAT 30"
+      ],
+      "velocidad_maxima_mach": 1.8,
+      "techo_servicio_m": 15240,
+      "costo_unitario_usd": 92000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Airbus A321",
+      "fabricante": "Airbus",
+      "anio_fabricacion": 1993,
+      "capacidad_pasajeros": 240,
+      "alcance_km": 5700,
+      "velocidad_maxima_kmh": 871,
+      "costo_unitario_usd": 129000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 787 Dreamliner",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 2011,
+      "capacidad_pasajeros": 296,
+      "alcance_km": 14140,
+      "velocidad_maxima_kmh": 954,
+      "costo_unitario_usd": 248300000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "F-22 Raptor",
+      "fabricante": "Lockheed Martin",
+      "anio_fabricacion": 2005,
+      "armamento": [
+        "Misiles AIM-120 AMRAAM",
+        "Misiles AIM-9 Sidewinder",
+        "Cañón M61 Vulcan"
+      ],
+      "velocidad_maxima_mach": 2.25,
+      "techo_servicio_m": 20000,
+      "costo_unitario_usd": 150000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Su-57",
+      "fabricante": "Sukhoi",
+      "anio_fabricacion": 2010,
+      "armamento": [
+        "Misiles R-77",
+        "Misiles R-73",
+        "Cañón GSh-30"
+      ],
+      "velocidad_maxima_mach": 2.25,
+      "techo_servicio_m": 18000,
+      "costo_unitario_usd": 85000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "F-4 Phantom II",
+      "fabricante": "McDonnell Douglas",
+      "anio_fabricacion": 1958,
+      "armamento": [
+        "Misiles AIM-7 Sparrow",
+        "Misiles AIM-9 Sidewinder",
+        "Misiles AGM-65 Maverick",
+        "Bomba nuclear táctica B61"
+      ],
+      "velocidad_maxima_mach": 2.23,
+      "techo_servicio_m": 18288,
+      "costo_unitario_usd": 24100000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 707",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 1957,
+      "capacidad_pasajeros": 189,
+      "alcance_km": 7110,
+      "velocidad_maxima_kmh": 970,
+      "costo_unitario_usd": 40000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "MiG-21",
+      "fabricante": "Mikoyan-Gurevich",
+      "anio_fabricacion": 1959,
+      "armamento": [
+        "Misiles aire-aire R-3S",
+        "Misiles aire-aire R-60",
+        "Cañón GSh-23"
+      ],
+      "velocidad_maxima_mach": 2,
+      "techo_servicio_m": 18500,
+      "costo_unitario_usd": 1000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Douglas DC-8",
+      "fabricante": "Douglas Aircraft Company",
+      "anio_fabricacion": 1958,
+      "capacidad_pasajeros": 177,
+      "alcance_km": 6360,
+      "velocidad_maxima_kmh": 966,
+      "costo_unitario_usd": 18000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "A-4 Skyhawk",
+      "fabricante": "McDonnell Douglas",
+      "anio_fabricacion": 1954,
+      "armamento": [
+        "Bombas convencionales",
+        "Misiles aire-aire AIM-9 Sidewinder",
+        "Cañón Colt Mk 12 de 20 mm"
+      ],
+      "velocidad_maxima_mach": 0.92,
+      "techo_servicio_m": 12500,
+      "costo_unitario_usd": 860000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Lockheed L-188 Electra",
+      "fabricante": "Lockheed Corporation",
+      "anio_fabricacion": 1957,
+      "capacidad_pasajeros": 98,
+      "alcance_km": 5470,
+      "velocidad_maxima_kmh": 612,
+      "costo_unitario_usd": 3150000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "F-86 Sabre",
+      "fabricante": "North American Aviation",
+      "anio_fabricacion": 1949,
+      "armamento": [
+        "Cañones M3 de 20 mm",
+        "Misiles aire-aire AIM-9 Sidewinder"
+      ],
+      "velocidad_maxima_mach": 0.94,
+      "techo_servicio_m": 14900,
+      "costo_unitario_usd": 219000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Boeing 707",
+      "fabricante": "Boeing",
+      "anio_fabricacion": 1957,
+      "capacidad_pasajeros": 189,
+      "alcance_km": 7110,
+      "velocidad_maxima_kmh": 970,
+      "costo_unitario_usd": 40000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "MiG-21",
+      "fabricante": "Mikoyan-Gurevich",
+      "anio_fabricacion": 1959,
+      "armamento": [
+        "Misiles aire-aire R-3S",
+        "Misiles aire-aire R-60",
+        "Cañón GSh-23"
+      ],
+      "velocidad_maxima_mach": 2,
+      "techo_servicio_m": 18500,
+      "costo_unitario_usd": 1000000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Douglas DC-8",
+      "fabricante": "Douglas Aircraft Company",
+      "anio_fabricacion": 1958,
+      "capacidad_pasajeros": 177,
+      "alcance_km": 6360,
+      "velocidad_maxima_kmh": 966,
+      "costo_unitario_usd": 18000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "A-4 Skyhawk",
+      "fabricante": "McDonnell Douglas",
+      "anio_fabricacion": 1954,
+      "armamento": [
+        "Bombas convencionales",
+        "Misiles aire-aire AIM-9 Sidewinder",
+        "Cañón Colt Mk 12 de 20 mm"
+      ],
+      "velocidad_maxima_mach": 0.92,
+      "techo_servicio_m": 12500,
+      "costo_unitario_usd": 860000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Lockheed L-188 Electra",
+      "fabricante": "Lockheed Corporation",
+      "anio_fabricacion": 1957,
+      "capacidad_pasajeros": 98,
+      "alcance_km": 5470,
+      "velocidad_maxima_kmh": 612,
+      "costo_unitario_usd": 3150000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Hawker Hunter",
+      "fabricante": "Hawker Aircraft",
+      "anio_fabricacion": 1951,
+      "armamento": [
+        "Cañones Aden de 30 mm",
+        "Misiles aire-aire AIM-9 Sidewinder"
+      ],
+      "velocidad_maxima_mach": 0.94,
+      "techo_servicio_m": 15240,
+      "costo_unitario_usd": 1000000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Messerschmitt Bf 109",
+      "fabricante": "Messerschmitt",
+      "anio_fabricacion": 1937,
+      "armamento": [
+        "Cañones MG 17 de 7.92 mm",
+        "Cañones MG FF de 20 mm"
+      ],
+      "velocidad_maxima_kmh": 575,
+      "techo_servicio_m": 12000,
+      "costo_unitario_usd": 64000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Lockheed Model 10 Electra",
+      "fabricante": "Lockheed Corporation",
+      "anio_fabricacion": 1934,
+      "capacidad_pasajeros": 10,
+      "alcance_km": 2100,
+      "velocidad_maxima_kmh": 300,
+      "costo_unitario_usd": 80000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Supermarine Spitfire",
+      "fabricante": "Supermarine",
+      "anio_fabricacion": 1938,
+      "armamento": [
+        "Cañones Browning de 7.7 mm",
+        "Cañones Hispano de 20 mm"
+      ],
+      "velocidad_maxima_kmh": 594,
+      "techo_servicio_m": 11582,
+      "costo_unitario_usd": 100000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Douglas DC-3",
+      "fabricante": "Douglas Aircraft Company",
+      "anio_fabricacion": 1936,
+      "capacidad_pasajeros": 21,
+      "alcance_km": 2000,
+      "velocidad_maxima_kmh": 346,
+      "costo_unitario_usd": 62000
+    },
+    {
+      "tipo": "combate",
+      "modelo": "Hawker Hurricane",
+      "fabricante": "Hawker Aircraft",
+      "anio_fabricacion": 1937,
+      "armamento": [
+        "Cañones Hispano de 20 mm",
+        "Ametralladoras Browning de 7.7 mm"
+      ],
+      "velocidad_maxima_kmh": 518,
+      "techo_servicio_m": 10364,
+      "costo_unitario_usd": 100000
+    },
+    {
+      "tipo": "comercial",
+      "modelo": "Junkers Ju 52",
+      "fabricante": "Junkers",
+      "anio_fabricacion": 1931,
+      "capacidad_pasajeros": 17,
+      "alcance_km": 870,
+      "velocidad_maxima_kmh": 265,
+      "costo_unitario_usd": 90000
+    }
+  ]

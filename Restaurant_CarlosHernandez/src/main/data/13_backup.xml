@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order>
+    <order>
+        <id>15</id>
+        <dateOrder/>
+        <idCustomer>13</idCustomer>
+        <idTable>3</idTable>
+        <orderItems>
+            <order_item>
+                <id>22</id>
+                <orderId>15</orderId>
+                <menuItem>
+                    <id>4</id>
+                    <name>Caesar Salad</name>
+                    <description>Romaine lettuce with Caesar dressing and croutons</description>
+                    <price>8.99</price>
+                </menuItem>
+                <quantity>13</quantity>
+            </order_item>
+            <order_item>
+                <id>23</id>
+                <orderId>15</orderId>
+                <menuItem>
+                    <id>2</id>
+                    <name>Grilled Salmon</name>
+                    <description>Fresh salmon fillet with lemon butter sauce</description>
+                    <price>18.5</price>
+                </menuItem>
+                <quantity>8</quantity>
+            </order_item>
+        </orderItems>
+    </order>
+</order>

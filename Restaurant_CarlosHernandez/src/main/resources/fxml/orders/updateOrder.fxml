@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.orders.updateorder.UpdateOrderController">
+    <Label layoutX="182.0" layoutY="14.0" text="Orders">
+        <font>
+            <Font size="22.0" />
+        </font>
+    </Label>
+    <TableView fx:id="tableViewOrders" layoutX="14.0" layoutY="58.0" prefHeight="336.0" prefWidth="423.0">
+        <columns>
+            <TableColumn fx:id="dateOrder" prefWidth="209.59999656677246" text="date" />
+            <TableColumn fx:id="idTable" prefWidth="213.60003662109375" text="tableID" />
+        </columns>
+    </TableView>
+    <Label layoutX="620.0" layoutY="17.0" text="Order Items">
+        <font>
+            <Font size="22.0" />
+        </font>
+    </Label>
+    <TableView fx:id="tableViewOrderItems" layoutX="450.0" layoutY="174.0" prefHeight="214.0" prefWidth="423.0">
+        <columns>
+            <TableColumn fx:id="nameItem" prefWidth="176.0" text="item name" />
+            <TableColumn fx:id="priceItem" prefWidth="88.800048828125" text="price" />
+            <TableColumn fx:id="quantityItem" prefWidth="75.5999755859375" text="quantity" />
+            <TableColumn fx:id="totalItem" prefWidth="80.79997558593749" text="total" />
+        </columns>
+    </TableView>
+    <ComboBox fx:id="tablesCombobox" layoutX="523.0" layoutY="106.0" promptText="Table number" />
+    <ComboBox fx:id="itemsComboBox" layoutX="688.0" layoutY="58.0" prefHeight="26.0" prefWidth="150.0" promptText="Menu items" />
+    <ComboBox fx:id="quantity" layoutX="688.0" layoutY="93.0" promptText="Quantity" />
+    <Button layoutX="799.0" layoutY="131.0" mnemonicParsing="false" onAction="#addMenuItem" text="Add" />
+    <Button layoutX="688.0" layoutY="131.0" mnemonicParsing="false" onAction="#removeMenuItem" text="Remove" />
+    <Label alignment="CENTER" layoutX="608.0" layoutY="394.0" prefHeight="26.0" prefWidth="160.0" text="Total amount">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <Label fx:id="total" layoutX="639.0" layoutY="420.0" prefHeight="32.0" prefWidth="97.0" />
+   <Button fx:id="updateButton" layoutX="392.0" layoutY="426.0" mnemonicParsing="false" onAction="#update" text="Update Order" />
+   <Label layoutX="458.0" layoutY="110.0" text="Nº Table" />
+</AnchorPane>
