@@ -1,7 +1,7 @@
 # **App_Restaurante**  
 
 App_Restaurante es una aplicación de escritorio desarrollada en **Java** y **JavaFX** que simula el funcionamiento de un restaurante. Cuenta con dos secciones principales: **Clientes** y **Órdenes**.
-
+Además hay otro ejecutbale en el que se hay varios ejemplos de consultas de MongoDB llamadas Aggregations
 ## **¿En qué consiste?**  
 
 ### **Sección Clientes:**  
@@ -10,8 +10,8 @@ App_Restaurante es una aplicación de escritorio desarrollada en **Java** y **Ja
 - Solo el **administrador** tendrá acceso a esta sección.  
 
 ### **Sección Órdenes:**  
-- El administrador podrá **ver, editar y eliminar órdenes**.  
-- Los clientes podrán **añadir órdenes**.  
+- El administrador podrá **ver, editar y eliminar en todas las órdenes**.  
+- Los clientes podrán **añadir y ver sus propias órdenes**.  
 
 ## **Características principales**  
 - **Aplicación de escritorio**: completamente ejecutable.  
@@ -21,7 +21,7 @@ App_Restaurante es una aplicación de escritorio desarrollada en **Java** y **Ja
 ## **Tecnologías aplicadas**  
 - **JavaFX**: Framework de Java para interfaces gráficas en XML.  
 - **Java**: Lenguaje de programación principal.  
-- **Modelo en capas**: Organización estructurada en **common, dao, model, services y ui**.  
+- **Modelo en capas**: Organización estructurada en **common, dao, model, services y ui**.
 
 ## **Arquitectura del Sistema**  
 - **Cliente (Aplicación de escritorio)**: Interfaz desarrollada en **JavaFX**.  
