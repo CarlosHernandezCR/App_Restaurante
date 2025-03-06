@@ -11,6 +11,9 @@ import org.bson.types.ObjectId;
 import java.util.List;
 import java.util.Objects;
 
+import static common.constants.ConstantsErrors.DELETINGERROR;
+import static common.constants.ConstantsErrors.EMPTYLISTERROR;
+
 public class CustomerService {
     private final CustomerDAOMongo dao;
     private final CustomerDAOImplHibernate customerDAOImplHibernate;
@@ -32,6 +35,14 @@ public class CustomerService {
     public Either<Error, Integer> update(Customer c) {return dao.update(c);}
 
     public Either<Error, Integer> delete(Customer c,boolean o,boolean b) {
+        Either<Error, Customer> customer = dao.get(c.getId());
+        if (!o){
+            if (customer.isRight()) {
+                if (customer.get().getOrders().isEmpty()) {
+                    return Either.left(new Error(DELETINGERROR, ""));
+                }
+            }
+        }
         return dao.delete(c,o,b);
     }
 

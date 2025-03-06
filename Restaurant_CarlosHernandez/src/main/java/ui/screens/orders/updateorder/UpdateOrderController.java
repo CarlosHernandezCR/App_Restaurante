@@ -53,7 +53,7 @@ public class UpdateOrderController extends BaseScreenController {
     @FXML
     private ComboBox<Integer> quantity;
     private LocalDateTime date;
-    List<OrderItem> orderItemsOriginal = new ArrayList<>();
+
     @Inject
     public UpdateOrderController(OrderService orderService, MenuItemService menuItemService,TableService tableService){
         this.orderService = orderService;

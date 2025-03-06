@@ -65,7 +65,7 @@ public class CustomerDAOMongo {
             MongoDatabase database = mongoClient.getDatabase(databaseName);
             MongoCollection<Document> customersCollection = database.getCollection(collectionName);
 
-            Document customerDocument = customersCollection.find(eq("id", id)).first();
+            Document customerDocument = customersCollection.find(eq("_id", id)).first();
             if (customerDocument == null) {
                 result= Either.left(new Error(ConstantsErrors.NOTFOUND, ConstantsErrors.CUSTOMERNOEXIST));
             } else {

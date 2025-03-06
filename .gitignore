@@ -7,3 +7,11 @@ Restaurant_CarlosHernandez/qodana.yaml
 Restaurant_CarlosHernandez/src/main/resources/config/properties.xml
 Restaurant_CarlosHernandez/src/main/resources/META-INF/beans.xml
 Restaurant_CarlosHernandez/src/main/resources/META-INF/persistence.xml
+.idea/App_Restaurante.iml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+Restaurant_CarlosHernandez/.idea/vcs.xml

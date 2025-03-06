@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.login.LoginController">
-    <Label layoutX="338.0" layoutY="47.0" text="Restaurant">
-        <font>
-            <Font name="DejaVu Sans Condensed Bold" size="41.0" />
-        </font>
-    </Label>
+<BorderPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.login.LoginController">
+
     <center>
-        <StackPane prefHeight="150.0" prefWidth="200.0">
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background" BorderPane.alignment="CENTER">
-                <TextField fx:id="username" layoutX="375.0" layoutY="150.0" promptText="User" text="root" />
-                <PasswordField fx:id="password" layoutX="375.0" layoutY="187.0" promptText="Password" text="root" />
-                <Button layoutX="427.0" layoutY="261.0" mnemonicParsing="false" onAction="#login" text="Login">
+        <StackPane>
+            <VBox alignment="CENTER" spacing="10">
+              <Label text="Restaurant">
+                  <font>
+                      <Font name="DejaVu Sans Condensed Bold" size="41.0" />
+                  </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+              </Label>
+                <TextField fx:id="username" maxHeight="-Infinity" maxWidth="-Infinity" promptText="User" text="root" />
+                <PasswordField fx:id="password" maxWidth="-Infinity" promptText="Password" text="root" />
+                <Button onAction="#login" text="Login">
                     <font>
                         <Font name="Alef Regular" size="12.0" />
                     </font>
+               <VBox.margin>
+                  <Insets bottom="100.0" />
+               </VBox.margin>
                 </Button>
-                <StackPane prefHeight="150.0" prefWidth="200.0" />
-                <Label layoutX="358.0" layoutY="75.0" prefHeight="42.0" prefWidth="183.0" text="Restaurant">
-                    <font>
-                        <Font name="Arial" size="36.0" />
-                    </font>
-                </Label>
-            </AnchorPane>
+            </VBox>
         </StackPane>
     </center>
 </BorderPane>

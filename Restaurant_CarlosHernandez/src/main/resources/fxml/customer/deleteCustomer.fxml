@@ -1,34 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.customer.deletecustomer.DeleteCustomerController">
-    <TableView fx:id="customersTable" layoutX="14.0" layoutY="58.0" prefHeight="331.0" prefWidth="503.0">
-        <columns>
-            <TableColumn fx:id="idCustomerColumn" prefWidth="44.19998264312744" text="Id" />
-            <TableColumn fx:id="firstnameCustomerColumn" prefWidth="93.80001449584961" text="First name" />
-            <TableColumn fx:id="lastnameCustomerColumn" prefWidth="87.4000244140625" text="Last name" />
-            <TableColumn fx:id="emailCustomerColumn" prefWidth="84.00001525878906" text="Email" />
-            <TableColumn fx:id="phoneCustomerColumn" prefWidth="79.0" text="Phone" />
-            <TableColumn fx:id="dobCustomerColumn" prefWidth="110.5999755859375" text="Date of birth" />
-        </columns>
-    </TableView>
-    <TableView fx:id="ordersTable" layoutX="565.0" layoutY="103.0" prefHeight="251.0" prefWidth="310.0">
-        <columns>
-            <TableColumn fx:id="dateOrderColumn" prefWidth="149.20001220703125" text="Date" />
-            <TableColumn fx:id="tableOrderColumn" prefWidth="159.99997558593748" text="Table" />
-        </columns>
-    </TableView>
-    <Button layoutX="668.0" layoutY="363.0" mnemonicParsing="false" onAction="#deleteCustomer" text="Delete Customer" />
-   <Label layoutX="565.0" layoutY="40.0" prefHeight="26.0" prefWidth="309.0" text="ORDERS OF THE CUSTOMER">
-      <font>
-         <Font size="24.0" />
-      </font></Label>
-   <Label layoutX="162.0" layoutY="14.0" text="DELETE CUSTOMER">
-      <font>
-         <Font size="24.0" />
-      </font></Label>
+<BorderPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.customer.deletecustomer.DeleteCustomerController">
 
-</AnchorPane>
+    <top>
+        <Label alignment="TOP_CENTER" contentDisplay="TOP" text="DELETE CUSTOMER" BorderPane.alignment="CENTER">
+            <font>
+                <Font size="24.0" />
+            </font>
+         <BorderPane.margin>
+            <Insets bottom="40.0" top="20.0" />
+         </BorderPane.margin>
+        </Label>
+    </top>
+
+    <center>
+        <HBox alignment="CENTER" spacing="20">
+            <VBox spacing="10">
+                <TableView fx:id="customersTable">
+                    <columns>
+                        <TableColumn fx:id="idCustomerColumn" prefWidth="50.0" text="Id" />
+                        <TableColumn fx:id="firstnameCustomerColumn" prefWidth="100.0" text="First name" />
+                        <TableColumn fx:id="lastnameCustomerColumn" prefWidth="97.0" text="Last name" />
+                        <TableColumn fx:id="emailCustomerColumn" prefWidth="103.0" text="Email" />
+                        <TableColumn fx:id="phoneCustomerColumn" text="Phone" />
+                        <TableColumn fx:id="dobCustomerColumn" prefWidth="120.0" text="Date of birth" />
+                    </columns>
+                </TableView>
+            </VBox>
+
+            <VBox spacing="10">
+                <Label alignment="CENTER" contentDisplay="CENTER" text="ORDERS OF THE CUSTOMER" VBox.vgrow="NEVER">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+               <VBox.margin>
+                  <Insets left="30.0" />
+               </VBox.margin>
+                </Label>
+                <TableView fx:id="ordersTable" prefHeight="419.0" prefWidth="310.0">
+                    <columns>
+                        <TableColumn fx:id="dateOrderColumn" prefWidth="150.0" text="Date" />
+                        <TableColumn fx:id="tableOrderColumn" prefWidth="160.0" text="Table" />
+                    </columns>
+                </TableView>
+            </VBox>
+        </HBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#deleteCustomer" text="Delete Customer">
+            <HBox.margin>
+               <Insets bottom="40.0" />
+            </HBox.margin></Button>
+        </HBox>
+    </bottom>
+
+</BorderPane>
