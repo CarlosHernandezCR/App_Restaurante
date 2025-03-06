@@ -28,3 +28,19 @@ Además hay otro ejecutbale en el que se hay varios ejemplos de consultas de Mon
 - **Backend**: Recogida de datos mediante **TXT, XML, JDBC y Spring**.  
 - **Base de Datos**: Sistema relacional basado en **SQL** y también soporte para **MongoDB**.  
 - **Infraestructura con Docker**: Despliegue sencillo mediante contenedores.  
+
+## **Fotos de demostración**
+Estas capturas representarían las funciones más destacables de la aplicación
+
+Inicio de sesión
+![Inicio de Sesión](images/login.png)  
+
+
+Confirmación para hacer respaldo de datos al eliminar un comensal
+![Backup de datos](images/confirm_delete_customer.png)  
+
+Muestreo de comensales y con exportación a la base de datos en Mongo
+![Comensales](images/customers.png)  
+
+Interfaz de comanda
+![Comanda](images/Order.png)  
